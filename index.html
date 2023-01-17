@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/my-homework11/assets/style.css">
+    <script src="/my-homework11/index.js"></script>
+    
+</head>
+<body>
+    <h1>Корзина</h1>
+    <div class="anorak">
+        <img src="/my-homework11/assets/images/anorak.jpg" alt="anorak-foto" style="width:200px; height: 200px;">
+        <a class="anorak-content">
+            <p>RESEDVED куртка</p>
+            <p>Цвет: Белый</p>
+            <p>Размер: М</p>
+            <p>Количество: 1</p>
+        </a>
+        <form>
+            <input id="a" type="text" value="7999.20" /><br />
+        </form>
+        </div>
+    <div class="shoes">
+        <img src="/my-homework11/assets/images/shoes.jpg" alt="shoes-foto" style="width: 200px; height: 200px;">
+        <a class="shoes-content">
+            <p>Parad кроссовки</p>
+            <p>Цвет: Черный</p>
+            <p>Размер: 39</p>
+            <p>Количество: 1</p>
+        </a>
+        <form>
+        <input id="b" type="text" value="5112.00" /><br />
+        </form>
+    </div>
+    <div class="belt">
+        <img src="/my-homework11/assets/images/belt.jpg" alt="belt-foto" style="width: 200px; height: 200px;">
+        <a class="belt-content">
+            <p>HUGO Boss ремень</p>
+            <p>Цвет: Черный</p>
+            <p>Размер: 90 см</p>
+            <p>Количество: 1</p>
+        </a>
+        <form>
+            <input id="d" type="text" value="2010.00" /><br />
+            </form>
+        </div>
+        <form>
+        <input type="button" value="Итого" 
+        style="background-color: black; color: white; height: 60px; width: 200px; border-radius: 5px;"onclick="addition();" /><br />
+        </form>
+        <div id="result"></div>
+        
+        <button type="finalresult" id="finalresuil"
+        style="background-color: black; color: white; height: 60px; width: 200px; border-radius: 5px;" onclick="percent(1000);"> Использовать скидку 30%</button>
+        <div id="finalresult"></div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+.anorak{
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    margin-left: 50px;
+    align-content: stretch;
+    background-color: antiquewhite;
+    border-color: black;
+    border-radius: 2px;
+    color: black;
+    text-decoration: solid;
+
+}
+.anorak-content{
+    display: flex;
+    margin: 10px;
+    margin-left: 50px;
+    flex-direction: column;
+    align-content: center;
+    font-size: medium;
+}
+.shoes{
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    margin-left: 50px;
+    align-content: stretch;
+    background-color: antiquewhite;
+    border-color: black;
+    border-radius: 2px;
+    color: black;
+    text-decoration: solid;
+}
+.shoes-content{
+    display: flex;
+    margin: 10px;
+    margin-left: 50px;
+    flex-direction: column;
+    align-content: center;
+    font-size: medium;
+}
+.belt{
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    margin-left: 50px;
+    align-content: stretch;
+    background-color: antiquewhite;
+    border-color: black;
+    border-radius: 2px;
+    color: black;
+    text-decoration: solid;
+}
+.belt-content{
+    display: flex;
+    margin: 10px;
+    margin-left: 50px;
+    flex-direction: column;
+    align-content: center;
+    font-size: medium;
+}
+
+/*.button{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+}/*
