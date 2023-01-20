@@ -7,13 +7,13 @@ function addition() {
     if (isNaN(d) == true) d = 0;
 
     var c = a + b + d;
-
+    summ = c; 
     document.getElementById("result").innerHTML = c;
   }
-   function percent(number){
+  function percent(number){
     var percent="30";
-    var number="15121";
+    var number= summ;
     var number_percent=number/100*percent;
     var x = Number(number) - Number(number_percent);
     document.getElementById("finalresult").innerHTML = x;
-   }
+  }
